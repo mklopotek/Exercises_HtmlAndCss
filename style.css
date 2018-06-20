@@ -1,0 +1,13 @@
+h1 {
+    color: darkred;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: indianred;
+}
+
+h3 {
+    color: palevioletred;
+}
