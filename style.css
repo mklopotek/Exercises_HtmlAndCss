@@ -1,13 +1,189 @@
-h1 {
+/*Style all document by body*/
+
+body{
+    background-color: lavenderblush;
+}
+
+/* Main content */
+
+#main{
+    background-color: azure;
+    width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    padding: 60px;
+    border: 12px solid #000;
+}
+
+
+/*Style all document by * universal selector */
+
+*{
+    font-family: Georgia; "New Times Roman", sans-serif;
+}
+
+/* Style all header tags */
+
+h1{
     color: darkred;
     text-decoration-line: underline;
     text-transform: uppercase;
+    font-size: 48px;
 }
 
-h2 {
+h2{
     color: indianred;
+    font-size: 32px;
 }
 
-h3 {
+h3{
     color: palevioletred;
+    font-size: 20px;
+}
+
+/* Style all p tags */
+
+p{
+    font-size: 16px;
+    color: saddlebrown;
+}
+
+/* Style all a tages */
+
+a{
+    color: darkblue;
+    text-decoration-line: none;
+}
+
+/* Style pdf do pobrania */
+
+a[href$=".pdf"]{
+    color: blue;
+    font-size: small;
+}
+
+/* Style the first text some-information */
+
+#some-information{
+
+}
+
+
+/* Style all element a from navigation class */
+
+#navigation a{
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 2em;
+}
+
+
+/* ordered part of website */
+
+#ludnosc, #gospodarka, #kultura{
+    background-color: lavender;
+    margin-bottom: 32px;
+}
+
+#bibliografia, #contact{
+    margin-bottom: 32px;
+}
+
+/* Style contact-method */
+.contact-method{
+    display: inline-block;
+    text-decoration: underline;
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 200px;
+}
+
+
+/* style h3 with cultura id */
+
+#kultura h3 {
+    text-decoration: overline;
+    font-weight: normal;
+}
+
+
+/* Style single comments on coments website */
+
+.single-comment{
+
+}
+
+
+/*Style for historia.html */
+
+#main-content > p{
+    color: darkgoldenrod;
+    font-size: 20px;
+}
+
+span{
+    color: black;
+}
+
+span[class]{
+    font-size: 40px;
+    color: darkorange;
+}
+
+div p:first-child{
+    font-size: 50px;
+}
+
+
+/* This is for trying pseudo class groups to the links
+it cover previous style with href^ and href$
+*/
+
+h1:hover{
+    color:darkslateblue;
+}
+
+a:hover{
+    color:red;
+    text-decoration: underline;
+}
+
+a:active{
+    background-color: darkgray;
+    text-transform: uppercase;
+}
+
+#navigation a:hover{
+    color:brown;
+}
+
+
+/* the hr style */
+
+hr{
+    color: crimson;
+}
+
+
+/* nth-child */
+
+li:nth-child(even){
+    background-color: lightgrey;
+}
+
+li:nth-child(2n +1){
+    background-color: gainsboro;
+}
+
+/* style dl in wydarzenia kulturalne
+ */
+
+#kultura dt{
+    color: red;
+    word-spacing: 2px;
+    font-size: 16px;
+    line-height: 2em;
+    margin-bottom: 12px;
 }
