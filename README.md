@@ -4,4 +4,4 @@
 
 ------------------------
 
-**You can find here the website about Lublin which is one of the city in Poland.**
+**You can find here the website about Lublin which is one of the city in Poland. BUT IT'S ONLY FOR EXCERCISE**
